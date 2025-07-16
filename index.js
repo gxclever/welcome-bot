@@ -23,7 +23,7 @@ client.on('guildMemberUpdate', (oldMember, newMember) => {
 
   console.log(`[DEBUG] 추가된 역할: ${addedRole.name}`);
 
-  if (addedRole.name === "유저") {
+  if (addedRole.name === "🌱 | 유저") {
     const channel = newMember.guild.channels.cache.find(ch => ch.name === "💬ㅣ메인채팅방");
     if (!channel) {
       console.log("[ERROR] 채널을 찾을 수 없습니다.");
