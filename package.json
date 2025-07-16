@@ -1,0 +1,24 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxclever/welcome-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gxclever/welcome-bot/issues"
+  },
+  "homepage": "https://github.com/gxclever/welcome-bot#readme",
+  "description": ""
+}
